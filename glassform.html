@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+	</head>
+	<style>
+		
+		#one{
+			width: 450px;
+			height: 330px;
+			background-color: rgba(0,0,0,0.5);
+			margin: 0 auto;
+			margin-top: 10%; 
+			padding: 10px;
+			padding-left: 50px;
+			border-radius: 15px;
+			-webkit-border-radius:15px;
+			-0-border-radius:15px;
+			-moz-border-radius:15px;
+			color: white;
+			font-weight: bolder;
+/*			box-shadow: inset 4px 4px rgba(0,25,0,0);*/
+			
+		}
+		#one h2{
+			text-align: center;
+			font-size: 25px;
+			color: burlywood;
+		}
+		#one input[type="text"]{
+			width: 350px;
+			height: 40px;
+			border: 0px;
+			margin-left: 4%;
+			text-align: center;
+			-webkit-border-radius:10px;
+			-0-border-radius:10px;
+			-moz-border-radius:10px;	
+		}
+		#one input[type="password"]{
+			width: 350px;
+			height: 40px;
+			border: 0px;
+			margin-left: 4%;
+			text-align: center;
+			-webkit-border-radius:10px;
+			-0-border-radius:10px;
+			-moz-border-radius:10px;	
+		}
+		#one input[type="submit"]{
+			width: 200px;
+			height: 45px;
+			margin-left: 6%;
+			-webkit-border-radius:10px;
+			-0-border-radius:10px;
+			-moz-border-radius:10x;
+			background-color: skyblue;
+		}
+		#one a{
+			text-decoration: none;
+			color: lawngreen;
+		}
+		
+		.new{
+			margin-left: 20%;
+		}
+		
+		.new:hover{
+		background-color: darkgreen;
+		text-decoration: underline;
+		}
+		.reset:hover{
+			text-decoration: underline;
+			background-color:steelblue;
+			font-size: 18px;
+		}
+	</style>
+	<body>
+		<div id="one">
+		<h2>LOG IN</h2>
+			<form action="login.php">
+				<input type="text" placeholder="Enter your username"><br /><br><br>
+				<input type="password" placeholder="Enter your password"><br /><br><br>
+				<input type="submit" value="login"><br><br>
+				<a href="resetpass.php" class="reset">Forgot password?</a>
+				<a href="signup.html" class="new">Create Account</a>
+			</form>
+		</div>
+	</body>
+</html>
